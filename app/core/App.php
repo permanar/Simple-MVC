@@ -20,7 +20,7 @@ class App {
         if (method_exists($this->controller, $url[1])) {
           $this->controller->index();
         } else {
-          var_dump($this->controller);
+          var_dump($this->controller); 
         }
       }
 
