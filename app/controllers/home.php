@@ -9,6 +9,10 @@ class Home extends Controller {
     echo "home/index";
   }
 
+  public function test($arg) {
+    echo "tost ".$arg;
+  }
+
 }
 
 
