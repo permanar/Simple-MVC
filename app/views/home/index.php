@@ -23,6 +23,6 @@ ob_start();
     <a href="#">link</a>
 </div>
 <?php
-$content = ob_get_clean(); 
-echo $content;
+$content = ob_get_clean();
+echo $content; 
 ?>
